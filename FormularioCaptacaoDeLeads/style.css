@@ -1,0 +1,120 @@
+:root{
+    --font: "Arial";
+    --color-font: #202020;
+    --color-background: #FFFFFF;
+    --color-input: #F5F5F5;
+    --color-border: #EEEEEE;
+    --color-fontInput: #CCCCCC;
+
+}
+
+
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--color-background);
+    max-width: 1200px;
+    height: 1234px;
+    top: -219px;
+    left: -413px;
+    padding: 50px 60px 50px 60px;
+    gap: 25px;
+    border-radius: 20px;
+}
+
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    margin-top: 25px;
+}
+
+.input-box label{
+    color: var(--color-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.6px;
+    letter-spacing: -5%;
+}
+
+.input-box input{
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--color-input);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 10px;
+    gap: 10px;
+}
+
+::-webkit-input-placeholder{
+    color: var(--color-fontInput);
+}
+
+.nome-sobrenome {
+    width: 1196px ;
+}
+
+.email-cidade{
+    width: 801px ;
+}
+
+.telefone-estado{
+    width: 370px;
+    margin: 25px 0px 0px 25px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.6px;
+    letter-spacing: -5%;
+    margin-right: 0px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;  
+}
+.card-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 290px;
+    height: 247px;
+    border: 2px solid var(--color-border);
+    border-radius: 10px;
+}
+
+
+.card-img label{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-img input{
+    display: block;
+    margin-left: 250px;
+    margin-top: 10px;
+}
