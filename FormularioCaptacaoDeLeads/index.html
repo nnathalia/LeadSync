@@ -1,95 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Captação de Leads</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <link rel="icon" href="img/icons8-mac-os.svg">
 </head>
+
 <body>
-     <div class="container">
-         <section class="input">
+    <div class="container">
+        <section class="input">
             <div class="input-box nome-sobrenome">
                 <label>Nome:</label>
-                <input type="text" placeholder="Ex.: Ana">
+                <input id="input-nome" type="text" placeholder="Ex.: Ana">
             </div>
 
             <div class="input-box nome-sobrenome">
                 <label>Sobrenome:</label>
-                <input type="text" placeholder="Ex.: Maria da Silva">
+                <input id="input-sobrenome" type="text" placeholder="Ex.: Maria da Silva">
             </div>
 
-            <div class="input-box email-cidade">
+            <div class="input-box email-estado">
                 <label>Email:</label>
-                <input type="email" placeholder="Ex.: maria.silva.iplace@icloud.com">
+                <input id="input-email" type="email" placeholder="Ex.: maria.silva.iplace@icloud.com">
             </div>
 
-            <div class= "input-box  telefone-estado">
+            <div class="input-box telefone-cidade">
                 <label>DDD + Telefone:</label>
-                <input type="tel" placeholder="Ex.: 011912345678">
+                <input id="input-telefone" type="tel" placeholder="Ex.: 011912345678">
             </div>
 
-            <div class="input-box email-cidade">
-                <label>Cidade:</label>
-                <input type="text" placeholder="Ex.: São Paulo">
-            </div>
 
-            <div class="input-box telefone-estado">
+            <div class="input-box email-estado">
                 <label>Estado:</label>
-                <input type="text" placeholder="Selecione seu estado">
+                <input id="input-estado" type="text" placeholder="Selecione seu estado">
+            </div>
+
+            <div class="input-box telefone-cidade">
+                <label>Cidade:</label>
+                <input id="input-cidade" type="text" placeholder="Ex.: São Paulo">
             </div>
         </section>
 
-        <label class="text">Quais ofertas você gostaria de receber?</label>
-        
+
+        <div class="text">
+            <label>Quais ofertas você gostaria de receber?</label>
+        </div>
+
         <section class="galeria">
-            <div class="card-img">
-                <img class="img-style" src="img/iphone.svg" alt="">
+            <div class="card-img"">
+                <img class=" img-style" src="img/iphone.svg" alt="">
                 <label>iPhone</label>
-                <input type="checkbox">
+                <input class="checkbox" id="cb1" type="checkbox">
             </div>
 
-            <div class="card-img">
-                <img class="img-style" src="img/mac.svg" alt="">
+            <div class="card-img"">
+                <img class=" img-style" src="img/mac.svg" alt="">
                 <label>Mac</label>
-                <input type="checkbox">
+                <input class="checkbox" id="cb2" type="checkbox">
             </div>
 
             <div class="card-img">
                 <img class="img-style" src="img/ipad.svg" alt="">
-                <label >iPad</label>
-                <input type="checkbox">
+                <label>iPad</label>
+                <input class="checkbox" id="cb3" type="checkbox">
             </div>
 
             <div class="card-img">
                 <img class="img-style" src="img/apple_watch.svg" alt="">
-                <label >Apple Watch</label>
-                <input type="checkbox">
+                <label>Apple Watch</label>
+                <input class="checkbox" id="cb4" type="checkbox">
             </div>
 
             <div class="card-img">
                 <img class="img-style" src="img/airPods.svg" alt="">
                 <label>AirPods</label>
-                <input type="checkbox">
+                <input class="checkbox" id="cb5" type="checkbox">
             </div>
 
             <div class="card-img">
                 <img class="img-style" src="img/apple_watch.svg" alt="">
                 <label>Apple TV</label>
-                <input type="checkbox">
+                <input id="cb6" type="checkbox">
             </div>
 
             <div class="card-img">
                 <img class="img-style" src="img/acessorios.svg" alt="">
                 <label>Acessórios</label>
-                <input type="checkbox">
+                <input class="checkbox" id="cb7" type="checkbox">
             </div>
 
             <div class="card-img">
                 <img class="img-style" src="img/originaisIPlace.svg" alt="">
                 <label>Originais iPlacer</label>
-                <input type="checkbox">
+                <input class="checkbox" id="cb8" type="checkbox">
             </div>
         </section>
 
@@ -97,12 +104,12 @@
         <div class="botoes">
             <button class="bt-limpar">Limpar dados</button>
             <button class="bt-cadastro">Confirmar cadastro</button>
-
         </div>
 
-     </div>
+    </div>
 
-     
-    
+
+
 </body>
+
 </html>
