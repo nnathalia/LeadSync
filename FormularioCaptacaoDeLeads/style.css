@@ -109,6 +109,18 @@ body{
     cursor: pointer;
 }
 
+.img-style{
+    width: 100%;
+    max-width: 150px;
+    max-height: 150px;
+    transition: all 0.3s;
+
+    &:hover{ 
+        scale: 1.1;
+    }
+}
+
+
 
 .card-img label{
     text-align: center;
@@ -161,5 +173,4 @@ body{
 button input{
     cursor: pointer;
 }
-
 
