@@ -97,6 +97,7 @@ body{
 }
 
 .card-img{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,7 +117,9 @@ body{
 
 .card-img input{
     display: block;
-    color: green;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
 
 .botoes{
