@@ -6,6 +6,11 @@
 
 O projeto simula um formulário de captação de leads, com um layout visual que permite aos usuários selecionar os tipos de ofertas que desejam receber, como iPhone, Mac, iPad, entre outros produtos Apple.
 
+## 🔗 Acesse o projeto
+
+Você pode acessar a versão online do projeto aqui:  
+👉 [Ver Projeto no Navegador](https://nnathalia.github.io/LeadSync/)
+
 ## 🎯 Objetivo Educacional
 
 - Aplicar conceitos de **formulários HTML**.
