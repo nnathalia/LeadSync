@@ -10,7 +10,7 @@
 
 
 body {
-    background-color: black;
+    background-color: rgb(197, 195, 195);
     display: flex;
     justify-content: center;
     font-family: var(--font);
