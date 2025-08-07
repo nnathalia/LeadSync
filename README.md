@@ -1,5 +1,7 @@
 # 📝 LeadSync - Formulário de Captação de Leads
 
+![LeadSync - Interface](assets/img/image.png)
+
 ## 📌 Descrição
 
 **LeadSync** é um projeto acadêmico desenvolvido como parte da disciplina de **Desenvolvimento Web II**, com o objetivo de aplicar e praticar os conhecimentos em **HTML5**, **CSS3** e introdução ao **JavaScript**.
